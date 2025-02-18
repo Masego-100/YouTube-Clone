@@ -1,5 +1,36 @@
 .thumbnail{
     width: 390px;
-    height: 219px;
+    display: block;
+    padding-bottom: 20px;
+}
+
+.search-bar{
+    font-size: 18px;
+    padding-left: 15px;
+    padding-right: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-style: solid;
+    border-radius: 50px;
+    border-color: grey;
+    display: block;
+    margin-bottom: 30px;
     
+}
+
+.video-title{
+    font-weight: bold;
+    margin-bottom: 3px;
+    font-family:robo;
+}
+
+.Author{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: grey;}
+
+.video-stats{
+    margin-top: 5px;
+    color: grey;
+   
 }
