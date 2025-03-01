@@ -1,7 +1,9 @@
+
 .thumbnail{
-    width: 390px;
     display: block;
-    padding-bottom: 20px;
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
 }
 
 .search-bar{
@@ -15,22 +17,28 @@
     border-color: grey;
     display: block;
     margin-bottom: 30px;
+    align-items: center;
     
 }
-
+.video-info-container{
+    display: inline-block;
+    width: 300px;
+}
 .video-title{
     font-weight: bold;
     margin-bottom: 3px;
-    font-family:robo;
+    font-family: Monomakh;
 }
 
 .Author{
     margin-top: 5px;
+    display: block;
     margin-bottom: 5px;
     color: grey;}
 
 .video-stats{
-    margin-top: 5px;
+    margin-top: 5px; 
+    display: block;
     color: grey;
    
 }
